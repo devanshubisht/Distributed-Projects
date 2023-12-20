@@ -1,0 +1,108 @@
+Running iom job!
+We are running on soctf-pdc-013.d1.comp.nus.edu.sg
+Job started at Tue Sep 26 12:49:32 AM +08 2023
+Arguments to your executable: test-1mil.in test-1mil.out 8
+Running iom now...
+<INPUT_PATH>: test-1mil.in
+<OUTPUT_PATH>: test-1mil.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out test-1mil.in test-1mil.out 8':
+
+   788,295,760,864      cycles                                                      
+   779,830,719,049      instructions              #    0.99  insn per cycle         
+     2,179,955,094      cache-references                                            
+         1,412,825      cache-misses              #    0.065 % of all cache refs    
+
+      24.811742601 seconds time elapsed
+
+     197.087108000 seconds user
+       0.491588000 seconds sys
+
+
+<INPUT_PATH>: test-1mil.in
+<OUTPUT_PATH>: test-1mil.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out test-1mil.in test-1mil.out 8':
+
+   797,509,514,870      cycles                                                      
+   780,205,219,048      instructions              #    0.98  insn per cycle         
+     2,225,148,729      cache-references                                            
+         1,436,522      cache-misses              #    0.065 % of all cache refs    
+
+      25.095826411 seconds time elapsed
+
+     199.338285000 seconds user
+       0.555404000 seconds sys
+
+
+<INPUT_PATH>: test-1mil.in
+<OUTPUT_PATH>: test-1mil.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out test-1mil.in test-1mil.out 8':
+
+   800,225,444,199      cycles                                                      
+   780,260,306,852      instructions              #    0.98  insn per cycle         
+     2,315,419,073      cache-references                                            
+         1,426,153      cache-misses              #    0.062 % of all cache refs    
+
+      25.217973617 seconds time elapsed
+
+     199.956040000 seconds user
+       0.643305000 seconds sys
+
+
+<INPUT_PATH>: test.in
+<OUTPUT_PATH>: sequential.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_sequential test.in sequential.out 1':
+
+ 1,522,299,885,749      cycles                                                      
+ 3,010,151,831,257      instructions              #    1.98  insn per cycle         
+        24,819,562      cache-references                                            
+         2,847,482      cache-misses              #   11.473 % of all cache refs    
+
+     365.710104885 seconds time elapsed
+
+     365.510383000 seconds user
+       0.167991000 seconds sys
+
+
+<INPUT_PATH>: test.in
+<OUTPUT_PATH>: sequential.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_sequential test.in sequential.out 1':
+
+ 1,522,356,578,225      cycles                                                      
+ 3,010,199,560,126      instructions              #    1.98  insn per cycle         
+        25,811,586      cache-references                                            
+         2,944,934      cache-misses              #   11.409 % of all cache refs    
+
+     365.689138780 seconds time elapsed
+
+     365.464391000 seconds user
+       0.195989000 seconds sys
+
+
+<INPUT_PATH>: test.in
+<OUTPUT_PATH>: sequential.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_sequential test.in sequential.out 1':
+
+ 1,524,359,738,672      cycles                                                      
+ 3,010,164,014,717      instructions              #    1.97  insn per cycle         
+        32,715,076      cache-references                                            
+         3,006,185      cache-misses              #    9.189 % of all cache refs    
+
+     365.986207716 seconds time elapsed
+
+     365.768200000 seconds user
+       0.191995000 seconds sys
+
+
+Job ended at Tue Sep 26 01:09:13 AM +08 2023

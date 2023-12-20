@@ -1,0 +1,930 @@
+./test.sh: line 20: ./iom_sequential: Permission denied
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+87iom_sequential output:
+cat: correct10.out: No such file or directory
+./test.sh: line 20: ./iom_sequential: Permission denied
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+13043iom_sequential output:
+cat: correct60.out: No such file or directory
+./test.sh: line 20: ./iom_sequential: Permission denied
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+29385iom_sequential output:
+cat: correct110.out: No such file or directory
+./test.sh: line 20: ./iom_sequential: Permission denied
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+199415iom_sequential output:
+cat: correct160.out: No such file or directory
+./test.sh: line 20: ./iom_sequential: Permission denied
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+410485iom_sequential output:
+cat: correct210.out: No such file or directory
+Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+26iom_sequential output:
+25<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+7512iom_sequential output:
+7218<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+30916iom_sequential output:
+29892<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+100394iom_sequential output:
+98043<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+476209iom_sequential output:
+450143Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+25iom_sequential output:
+26<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+5637iom_sequential output:
+6095<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+42272iom_sequential output:
+45923<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+133922iom_sequential output:
+145487<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+571287iom_sequential output:
+628596Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+32iom_sequential output:
+37<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+12819iom_sequential output:
+14185<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+27332iom_sequential output:
+29225<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+201437iom_sequential output:
+221370<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+279756iom_sequential output:
+303288Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+49iom_sequential output:
+52<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+10820iom_sequential output:
+11923<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+64797iom_sequential output:
+71024<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+182406iom_sequential output:
+199926<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+515760iom_sequential output:
+567049Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;32mTest 10: Passed[0m
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;32mTest 60: Passed[0m
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;32mTest 110: Passed[0m
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;32mTest 160: Passed[0m
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;32mTest 210: Passed[0m
+Number of test cases passed: 5 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;32mTest 10: Passed[0m
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;32mTest 60: Passed[0m
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;32mTest 110: Passed[0m
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;32mTest 160: Passed[0m
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;32mTest 210: Passed[0m
+Number of test cases passed: 5 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+./test.sh: line 15: 3085421 Segmentation fault      (core dumped) ../iom_cpp.out test$i.in test$i.out 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+iom_sequential output:
+23<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+502iom_sequential output:
+3654<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1606iom_sequential output:
+20846<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+./test.sh: line 15: 3085538 Segmentation fault      (core dumped) ../iom_cpp.out test$i.in test$i.out 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+iom_sequential output:
+68070<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5995iom_sequential output:
+176348Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+9iom_sequential output:
+20<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+500iom_sequential output:
+782<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1657iom_sequential output:
+2643<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3534iom_sequential output:
+5591<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+6076iom_sequential output:
+13125Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+20iom_sequential output:
+59<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+446iom_sequential output:
+8506<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1624iom_sequential output:
+29136<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3509iom_sequential output:
+18131<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+./test.sh: line 15: 3087322 Segmentation fault      (core dumped) ../iom_cpp.out test$i.in test$i.out 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+iom_sequential output:
+226118Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+8iom_sequential output:
+52<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+505iom_sequential output:
+15197<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1671iom_sequential output:
+3657<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3500iom_sequential output:
+226690<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5504iom_sequential output:
+129362Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+16iom_sequential output:
+53<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+493iom_sequential output:
+2142<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1607iom_sequential output:
+27695<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3562iom_sequential output:
+14426<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5983iom_sequential output:
+83783Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;32mTest 10: Passed[0m
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+466iom_sequential output:
+8014<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1531iom_sequential output:
+77028<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3548iom_sequential output:
+146619<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5839iom_sequential output:
+431364Number of test cases passed: 1 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+4iom_sequential output:
+40<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+469iom_sequential output:
+14205<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1692iom_sequential output:
+41317<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3561iom_sequential output:
+116008<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5581iom_sequential output:
+595541Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+12iom_sequential output:
+17<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+509iom_sequential output:
+3990<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1663iom_sequential output:
+53668<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3442iom_sequential output:
+40726<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5933iom_sequential output:
+485386Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+16iom_sequential output:
+23<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+467iom_sequential output:
+4286<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1659iom_sequential output:
+62863<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3610iom_sequential output:
+244959<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+6297iom_sequential output:
+463699Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+22iom_sequential output:
+33<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+464iom_sequential output:
+1677<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1614iom_sequential output:
+54138<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3603iom_sequential output:
+72629<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+6263iom_sequential output:
+528757Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+18iom_sequential output:
+35<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+519iom_sequential output:
+10649<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1702iom_sequential output:
+54093<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3514iom_sequential output:
+176904<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5939iom_sequential output:
+86400Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;32mTest 10: Passed[0m
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+519iom_sequential output:
+5972<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1723iom_sequential output:
+10361<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3556iom_sequential output:
+87318<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+5760iom_sequential output:
+70064Number of test cases passed: 1 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;31mTest 10: Failed[0m
+iom_cpp.out output:
+16iom_sequential output:
+31<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;31mTest 60: Failed[0m
+iom_cpp.out output:
+527iom_sequential output:
+8506<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;31mTest 110: Failed[0m
+iom_cpp.out output:
+1747iom_sequential output:
+30344<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;31mTest 160: Failed[0m
+iom_cpp.out output:
+3713iom_sequential output:
+280071<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;31mTest 210: Failed[0m
+iom_cpp.out output:
+6349iom_sequential output:
+181012Number of test cases passed: 0 out of 5
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: correct10.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test10.in
+<OUTPUT_PATH>: test10.out
+<NUM_THREADS>: 20
+[0;32mTest 10: Passed[0m
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: correct60.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test60.in
+<OUTPUT_PATH>: test60.out
+<NUM_THREADS>: 20
+[0;32mTest 60: Passed[0m
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: correct110.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test110.in
+<OUTPUT_PATH>: test110.out
+<NUM_THREADS>: 20
+[0;32mTest 110: Passed[0m
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: correct160.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test160.in
+<OUTPUT_PATH>: test160.out
+<NUM_THREADS>: 20
+[0;32mTest 160: Passed[0m
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: correct210.out
+<NUM_THREADS>: 1
+<INPUT_PATH>: test210.in
+<OUTPUT_PATH>: test210.out
+<NUM_THREADS>: 20
+[0;32mTest 210: Passed[0m
+Number of test cases passed: 5 out of 5

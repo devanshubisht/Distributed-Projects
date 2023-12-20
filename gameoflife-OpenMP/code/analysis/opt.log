@@ -1,0 +1,536 @@
+Prog iom_cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_cpp.out ./test-fat.in ./test-fat.out 40':
+
+   590,252,349,049      cycles                                                      
+   366,467,772,087      instructions              #    0.62  insn per cycle         
+       447,829,315      L1-dcache-load-misses     #    0.37% of all L1-dcache accesses
+   120,825,228,963      L1-dcache-loads                                             
+
+       7.808679223 seconds time elapsed
+
+     237.473226000 seconds user
+       0.403845000 seconds sys
+
+
+Prog iom_cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_cpp.out ./test-fat.in ./test-fat.out 40':
+
+   600,959,652,511      cycles                                                      
+   364,981,990,918      instructions              #    0.61  insn per cycle         
+       507,480,918      L1-dcache-load-misses     #    0.42% of all L1-dcache accesses
+   120,610,010,421      L1-dcache-loads                                             
+
+       7.895931851 seconds time elapsed
+
+     241.182041000 seconds user
+       0.579927000 seconds sys
+
+
+Prog iom_cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_cpp.out ./test-fat.in ./test-fat.out 40':
+
+   606,243,511,644      cycles                                                      
+   365,229,888,493      instructions              #    0.60  insn per cycle         
+       493,049,342      L1-dcache-load-misses     #    0.41% of all L1-dcache accesses
+   120,647,867,127      L1-dcache-loads                                             
+
+       7.990846603 seconds time elapsed
+
+     243.790179000 seconds user
+       0.328363000 seconds sys
+
+Prog iom_2.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_2.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   854,602,763,444      cycles                                                      
+   396,168,189,371      instructions              #    0.46  insn per cycle         
+       547,010,123      L1-dcache-load-misses     #    0.42% of all L1-dcache accesses
+   130,980,815,325      L1-dcache-loads                                             
+
+      10.550046552 seconds time elapsed
+
+     342.228810000 seconds user
+       0.704067000 seconds sys
+
+
+Prog iom_2.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_2.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   876,489,796,077      cycles                                                      
+   396,654,216,240      instructions              #    0.45  insn per cycle         
+       554,419,758      L1-dcache-load-misses     #    0.42% of all L1-dcache accesses
+   131,020,491,526      L1-dcache-loads                                             
+
+      10.641393341 seconds time elapsed
+
+     352.066193000 seconds user
+       0.579983000 seconds sys
+
+
+Prog iom_2.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_2.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   864,306,626,235      cycles                                                      
+   396,412,840,724      instructions              #    0.46  insn per cycle         
+       540,068,050      L1-dcache-load-misses     #    0.41% of all L1-dcache accesses
+   130,983,625,078      L1-dcache-loads                                             
+
+      10.509487892 seconds time elapsed
+
+     346.439430000 seconds user
+       0.639858000 seconds sys
+
+
+Prog iom_4.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_4.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   827,071,575,074      cycles                                                      
+   395,043,921,478      instructions              #    0.48  insn per cycle         
+       512,491,421      L1-dcache-load-misses     #    0.39% of all L1-dcache accesses
+   130,785,137,070      L1-dcache-loads                                             
+
+      10.128366927 seconds time elapsed
+
+     332.028084000 seconds user
+       0.531923000 seconds sys
+
+
+Prog iom_4.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_4.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 1,030,085,296,652      cycles                                                      
+   403,234,241,348      instructions              #    0.39  insn per cycle         
+       585,120,468      L1-dcache-load-misses     #    0.44% of all L1-dcache accesses
+   131,968,387,298      L1-dcache-loads                                             
+
+      12.150057955 seconds time elapsed
+
+     412.886345000 seconds user
+       0.579879000 seconds sys
+
+
+Prog iom_4.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_4.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   996,954,659,756      cycles                                                      
+   401,953,754,838      instructions              #    0.40  insn per cycle         
+       569,982,276      L1-dcache-load-misses     #    0.43% of all L1-dcache accesses
+   131,783,999,424      L1-dcache-loads                                             
+
+      11.831447164 seconds time elapsed
+
+     400.014315000 seconds user
+       0.511997000 seconds sys
+
+
+Prog iom_8.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_8.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   859,334,642,964      cycles                                                      
+   395,919,277,138      instructions              #    0.46  insn per cycle         
+       551,798,485      L1-dcache-load-misses     #    0.42% of all L1-dcache accesses
+   130,913,837,728      L1-dcache-loads                                             
+
+      10.447307458 seconds time elapsed
+
+     344.361885000 seconds user
+       0.663872000 seconds sys
+
+
+Prog iom_8.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_8.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 1,000,248,340,428      cycles                                                      
+   401,540,471,798      instructions              #    0.40  insn per cycle         
+       599,074,225      L1-dcache-load-misses     #    0.45% of all L1-dcache accesses
+   131,725,063,622      L1-dcache-loads                                             
+
+      11.866838209 seconds time elapsed
+
+     401.228156000 seconds user
+       0.403907000 seconds sys
+
+
+Prog iom_8.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_8.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   971,723,070,561      cycles                                                      
+   400,485,736,362      instructions              #    0.41  insn per cycle         
+       567,716,297      L1-dcache-load-misses     #    0.43% of all L1-dcache accesses
+   131,574,057,139      L1-dcache-loads                                             
+
+      11.629133517 seconds time elapsed
+
+     389.555123000 seconds user
+       0.615733000 seconds sys
+
+
+Prog iom_16.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_16.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   872,455,580,736      cycles                                                      
+   396,241,720,965      instructions              #    0.45  insn per cycle         
+       570,181,930      L1-dcache-load-misses     #    0.44% of all L1-dcache accesses
+   130,959,982,621      L1-dcache-loads                                             
+
+      10.586608679 seconds time elapsed
+
+     349.901949000 seconds user
+       0.407946000 seconds sys
+
+
+Prog iom_16.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_16.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   821,911,875,048      cycles                                                      
+   394,631,933,656      instructions              #    0.48  insn per cycle         
+       517,177,107      L1-dcache-load-misses     #    0.40% of all L1-dcache accesses
+   130,725,678,363      L1-dcache-loads                                             
+
+      10.072841816 seconds time elapsed
+
+     329.080059000 seconds user
+       0.727973000 seconds sys
+
+
+Prog iom_16.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_16.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   883,113,563,996      cycles                                                      
+   397,601,158,018      instructions              #    0.45  insn per cycle         
+       515,179,186      L1-dcache-load-misses     #    0.39% of all L1-dcache accesses
+   131,154,683,499      L1-dcache-loads                                             
+
+      10.676088423 seconds time elapsed
+
+     354.004012000 seconds user
+       0.495932000 seconds sys
+
+Prog iom_32.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_32.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   873,967,606,207      cycles                                                      
+   396,802,480,134      instructions              #    0.45  insn per cycle         
+       544,603,637      L1-dcache-load-misses     #    0.42% of all L1-dcache accesses
+   131,045,983,551      L1-dcache-loads                                             
+
+      10.637466873 seconds time elapsed
+
+     350.472318000 seconds user
+       0.555956000 seconds sys
+
+
+Prog iom_32.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_32.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   847,127,648,377      cycles                                                      
+   395,512,930,430      instructions              #    0.47  insn per cycle         
+       545,846,272      L1-dcache-load-misses     #    0.42% of all L1-dcache accesses
+   130,855,980,730      L1-dcache-loads                                             
+
+      10.305163519 seconds time elapsed
+
+     339.607944000 seconds user
+       0.476033000 seconds sys
+
+
+Prog iom_32.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_32.cpp.out ./test-fat.in ./test-fat.out 40':
+
+   834,791,616,104      cycles                                                      
+   394,941,759,466      instructions              #    0.47  insn per cycle         
+       539,372,152      L1-dcache-load-misses     #    0.41% of all L1-dcache accesses
+   130,770,023,992      L1-dcache-loads                                             
+
+      10.204991938 seconds time elapsed
+
+     334.567267000 seconds user
+       0.455906000 seconds sys
+
+
+Prog iom_64.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_64.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 1,539,586,635,248      cycles                                                      
+   427,583,532,112      instructions              #    0.28  insn per cycle         
+       510,575,664      L1-dcache-load-misses     #    0.38% of all L1-dcache accesses
+   135,348,326,206      L1-dcache-loads                                             
+
+      17.291055596 seconds time elapsed
+
+     617.310524000 seconds user
+       0.612093000 seconds sys
+
+
+Prog iom_64.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_64.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 1,509,121,907,461      cycles                                                      
+   426,706,484,988      instructions              #    0.28  insn per cycle         
+       503,241,528      L1-dcache-load-misses     #    0.37% of all L1-dcache accesses
+   135,256,628,946      L1-dcache-loads                                             
+
+      17.116204846 seconds time elapsed
+
+     604.926287000 seconds user
+       0.780028000 seconds sys
+
+
+srun: Job 39033 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 39033
+Prog iom_64.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_64.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 1,563,380,622,550      cycles                                                      
+   429,201,238,511      instructions              #    0.27  insn per cycle         
+       498,353,303      L1-dcache-load-misses     #    0.37% of all L1-dcache accesses
+   135,614,704,548      L1-dcache-loads                                             
+
+      17.646822617 seconds time elapsed
+
+     626.515474000 seconds user
+       0.963783000 seconds sys
+
+
+Prog iom_128.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_128.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 2,476,958,812,719      cycles                                                      
+   472,139,972,458      instructions              #    0.19  insn per cycle         
+       453,718,960      L1-dcache-load-misses     #    0.32% of all L1-dcache accesses
+   141,604,459,729      L1-dcache-loads                                             
+
+      26.711405597 seconds time elapsed
+
+     993.971103000 seconds user
+       0.415989000 seconds sys
+
+
+Prog iom_128.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_128.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 2,499,306,612,797      cycles                                                      
+   473,128,772,687      instructions              #    0.19  insn per cycle         
+       462,183,768      L1-dcache-load-misses     #    0.33% of all L1-dcache accesses
+   141,747,077,806      L1-dcache-loads                                             
+
+      26.930204232 seconds time elapsed
+
+    1002.955726000 seconds user
+       0.580011000 seconds sys
+
+
+Prog iom_128.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_128.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 2,494,875,714,359      cycles                                                      
+   473,032,123,884      instructions              #    0.19  insn per cycle         
+       448,997,273      L1-dcache-load-misses     #    0.32% of all L1-dcache accesses
+   141,734,998,917      L1-dcache-loads                                             
+
+      26.895248887 seconds time elapsed
+
+    1000.960478000 seconds user
+       0.444012000 seconds sys
+
+
+Prog iom_256.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_256.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 4,821,685,724,999      cycles                                                      
+   580,968,080,848      instructions              #    0.12  insn per cycle         
+       444,718,255      L1-dcache-load-misses     #    0.28% of all L1-dcache accesses
+   157,005,341,370      L1-dcache-loads                                             
+
+      50.241785074 seconds time elapsed
+
+    1933.882937000 seconds user
+       0.523966000 seconds sys
+
+
+Prog iom_256.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_256.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 4,778,986,077,642      cycles                                                      
+   578,895,059,525      instructions              #    0.12  insn per cycle         
+       439,302,951      L1-dcache-load-misses     #    0.28% of all L1-dcache accesses
+   156,705,654,973      L1-dcache-loads                                             
+
+      49.789032076 seconds time elapsed
+
+    1916.932794000 seconds user
+       0.687952000 seconds sys
+
+
+Prog iom_256.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_256.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 4,806,050,885,626      cycles                                                      
+   580,082,770,419      instructions              #    0.12  insn per cycle         
+       445,745,217      L1-dcache-load-misses     #    0.28% of all L1-dcache accesses
+   156,880,944,332      L1-dcache-loads                                             
+
+      50.097266827 seconds time elapsed
+
+    1927.915217000 seconds user
+       0.855933000 seconds sys
+
+
+Prog iom_512.cpp.out, Run 1
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_512.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 9,247,269,977,779      cycles                                                      
+   786,174,993,018      instructions              #    0.09  insn per cycle         
+       458,861,923      L1-dcache-load-misses     #    0.25% of all L1-dcache accesses
+   186,100,145,263      L1-dcache-loads                                             
+
+      95.118143267 seconds time elapsed
+
+    3711.597420000 seconds user
+       0.808036000 seconds sys
+
+Prog iom_512.cpp.out, Run 3
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_512.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 9,247,269,977,779      cycles                                                      
+   786,174,993,018      instructions              #    0.09  insn per cycle         
+       458,861,923      L1-dcache-load-misses     #    0.25% of all L1-dcache accesses
+   186,100,145,263      L1-dcache-loads                                             
+
+      95.118143267 seconds time elapsed
+
+    3711.597420000 seconds user
+       0.808036000 seconds sys
+
+Prog iom_512.cpp.out, Run 2
+<INPUT_PATH>: ./test-fat.in
+<OUTPUT_PATH>: ./test-fat.out
+<NUM_THREADS>: 40
+
+ Performance counter stats for './iom_512.cpp.out ./test-fat.in ./test-fat.out 40':
+
+ 9,247,269,977,779      cycles                                                      
+   786,174,993,018      instructions              #    0.09  insn per cycle         
+       458,861,923      L1-dcache-load-misses     #    0.25% of all L1-dcache accesses
+   186,100,145,263      L1-dcache-loads                                             
+
+      95.118143267 seconds time elapsed
+
+    3711.597420000 seconds user
+       0.808036000 seconds sys

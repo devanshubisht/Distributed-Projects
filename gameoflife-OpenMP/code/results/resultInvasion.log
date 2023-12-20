@@ -1,0 +1,104 @@
+Compiling...
+g++ -fopenmp -O3 -Wall -Wextra -Wpedantic -std=c++20 iom.cpp main.cpp -o iom_cpp.out
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 8':
+
+    52,783,678,036      cycles                                                      
+    77,888,488,561      instructions              #    1.48  insn per cycle         
+        96,790,705      L1-dcache-load-misses     #    0.37% of all L1-dcache accesses
+    26,269,468,822      L1-dcache-loads                                             
+
+       2.652900604 seconds time elapsed
+
+      20.362818000 seconds user
+       0.100092000 seconds sys
+
+
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i800.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i800.in test.out 8':
+
+    55,201,965,412      cycles                                                      
+    78,128,079,044      instructions              #    1.42  insn per cycle         
+       102,595,122      L1-dcache-load-misses     #    0.39% of all L1-dcache accesses
+    26,272,895,676      L1-dcache-loads                                             
+
+       2.826082940 seconds time elapsed
+
+      21.344382000 seconds user
+       0.093012000 seconds sys
+
+
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i1200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i1200.in test.out 8':
+
+    56,399,196,919      cycles                                                      
+    78,522,700,222      instructions              #    1.39  insn per cycle         
+        98,906,554      L1-dcache-load-misses     #    0.38% of all L1-dcache accesses
+    26,344,162,474      L1-dcache-loads                                             
+
+       2.913970893 seconds time elapsed
+
+      21.616570000 seconds user
+       0.123980000 seconds sys
+
+
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i1600.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i1600.in test.out 8':
+
+    55,431,957,871      cycles                                                      
+    78,912,600,160      instructions              #    1.42  insn per cycle         
+       103,134,032      L1-dcache-load-misses     #    0.39% of all L1-dcache accesses
+    26,454,696,427      L1-dcache-loads                                             
+
+       3.194070777 seconds time elapsed
+
+      21.167931000 seconds user
+       0.116065000 seconds sys
+
+
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i2000.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i2000.in test.out 8':
+
+    54,906,379,806      cycles                                                      
+    79,400,614,416      instructions              #    1.45  insn per cycle         
+       104,569,156      L1-dcache-load-misses     #    0.39% of all L1-dcache accesses
+    26,581,570,391      L1-dcache-loads                                             
+
+       2.927069222 seconds time elapsed
+
+      20.831016000 seconds user
+       0.116039000 seconds sys
+
+
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i2400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i2400.in test.out 8':
+
+    56,330,064,087      cycles                                                      
+    79,896,469,084      instructions              #    1.42  insn per cycle         
+       103,480,491      L1-dcache-load-misses     #    0.39% of all L1-dcache accesses
+    26,692,115,240      L1-dcache-loads                                             
+
+       3.096447592 seconds time elapsed
+
+      21.743189000 seconds user
+       0.151854000 seconds sys
+
+

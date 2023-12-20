@@ -1,0 +1,20 @@
+Job is running on soctf-pdc-024.d1.comp.nus.edu.sg, started at Sun Nov 19 01:41:39 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-024.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/109857.txt
+Running...
++ tee /tmp/109857.txt
++ mpirun --map-by core --bind-to core ./distr-sched-seq 2 0 10 0.16 tests/thesun.in
+EXECUTION TRACE: Task #2718281828: depth 0, type 2, seed 2718281828, output 1781211269 (1 descendants)
+EXECUTION TRACE: Task #1618033988: depth 0, type 1, seed 1618033988, output 53440 (1 descendants)
+EXECUTION TRACE: Task #4058104625: depth 1, type 3, seed 4058104625, output 7886 (1 descendants)
+EXECUTION TRACE: Task #2285740015: depth 1, type 1, seed 2285740015, output 80335 (2 descendants)
+EXECUTION TRACE: Task #2104450896: depth 2, type 2, seed 2104450896, output 2709202317 (0 descendants)
+EXECUTION TRACE: Task #226440632: depth 2, type 4, seed 226440632, output 895771442 (0 descendants)
+EXECUTION TRACE: Task #3972744737: depth 2, type 1, seed 3972744737, output 22376 (0 descendants)
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 674ms of 680ms (0.99118) - completed: 3 2 1 1 0
+Overall: 674ms of 680ms (0.99118) - completed: 3 2 1 1 0
+FINAL RUNTIME: 680ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
++ set +x

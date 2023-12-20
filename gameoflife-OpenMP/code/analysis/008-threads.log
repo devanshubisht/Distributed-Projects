@@ -1,0 +1,757 @@
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c40_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c40_i200.in test.out 1':
+
+    14,609,566,891      cycles                                                      
+    30,216,579,116      instructions              #    2.07  insn per cycle         
+           538,023      L1-dcache-load-misses     #    0.01% of all L1-dcache accesses
+    10,300,470,220      L1-dcache-loads                                             
+
+       4.990701413 seconds time elapsed
+
+       4.934860000 seconds user
+       0.043989000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c40_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c40_i200.in test.out 4':
+
+    18,762,404,828      cycles                                                      
+    31,063,163,649      instructions              #    1.66  insn per cycle         
+        35,026,633      L1-dcache-load-misses     #    0.33% of all L1-dcache accesses
+    10,506,923,317      L1-dcache-loads                                             
+
+       1.769766267 seconds time elapsed
+
+       6.865246000 seconds user
+       0.075969000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c40_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c40_i200.in test.out 8':
+
+    24,968,905,769      cycles                                                      
+    31,405,545,955      instructions              #    1.26  insn per cycle         
+        57,670,567      L1-dcache-load-misses     #    0.54% of all L1-dcache accesses
+    10,583,847,707      L1-dcache-loads                                             
+
+       1.227073472 seconds time elapsed
+
+       9.449199000 seconds user
+       0.079942000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c40_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c40_i200.in test.out 16':
+
+    54,975,007,637      cycles                                                      
+    32,186,758,604      instructions              #    0.59  insn per cycle         
+        93,169,863      L1-dcache-load-misses     #    0.87% of all L1-dcache accesses
+    10,734,383,197      L1-dcache-loads                                             
+
+       1.433717172 seconds time elapsed
+
+      22.197987000 seconds user
+       0.091958000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c40_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c40_i200.in test.out 32':
+
+   202,085,628,994      cycles                                                      
+    70,982,752,731      instructions              #    0.35  insn per cycle         
+     1,318,895,672      L1-dcache-load-misses     #    6.39% of all L1-dcache accesses
+    20,654,590,315      L1-dcache-loads                                             
+
+      10.496850944 seconds time elapsed
+
+      63.596102000 seconds user
+      42.245564000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c40_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c40_i200.in test.out 64':
+
+   393,547,391,913      cycles                                                      
+   118,166,624,351      instructions              #    0.30  insn per cycle         
+     2,834,857,716      L1-dcache-load-misses     #    8.67% of all L1-dcache accesses
+    32,682,953,554      L1-dcache-loads                                             
+
+      18.819494970 seconds time elapsed
+
+     114.983690000 seconds user
+      91.914401000 seconds sys
+
+
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r100_c30_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r100_c30_i200.in test.out 1':
+
+    36,369,595,798      cycles                                                      
+    75,479,120,830      instructions              #    2.08  insn per cycle         
+        30,300,844      L1-dcache-load-misses     #    0.12% of all L1-dcache accesses
+    25,736,388,598      L1-dcache-loads                                             
+
+      12.352667550 seconds time elapsed
+
+      12.309737000 seconds user
+       0.032035000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r100_c30_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r100_c30_i200.in test.out 4':
+
+    41,726,470,780      cycles                                                      
+    77,407,289,811      instructions              #    1.86  insn per cycle         
+        76,805,198      L1-dcache-load-misses     #    0.29% of all L1-dcache accesses
+    26,209,494,676      L1-dcache-loads                                             
+
+       3.886874249 seconds time elapsed
+
+      15.263239000 seconds user
+       0.091971000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r100_c30_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r100_c30_i200.in test.out 8':
+
+    51,144,829,894      cycles                                                      
+    78,068,674,396      instructions              #    1.53  insn per cycle         
+        99,744,419      L1-dcache-load-misses     #    0.38% of all L1-dcache accesses
+    26,349,398,334      L1-dcache-loads                                             
+
+       2.547296564 seconds time elapsed
+
+      19.846615000 seconds user
+       0.071994000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+<INPUT_PATH>: ./test/test_g100000_r100_c30_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r100_c30_i200.in test.out 16':
+
+    97,425,696,796      cycles                                                      
+    79,153,294,844      instructions              #    0.81  insn per cycle         
+       134,069,784      L1-dcache-load-misses     #    0.50% of all L1-dcache accesses
+    26,552,794,964      L1-dcache-loads                                             
+
+       2.518811742 seconds time elapsed
+
+      39.245117000 seconds user
+       0.091983000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r100_c30_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r100_c30_i200.in test.out 32':
+
+   249,305,350,431      cycles                                                      
+   118,776,598,936      instructions              #    0.48  insn per cycle         
+     1,409,457,265      L1-dcache-load-misses     #    3.84% of all L1-dcache accesses
+    36,729,424,120      L1-dcache-loads                                             
+
+      12.376285352 seconds time elapsed
+
+      83.864405000 seconds user
+      43.892330000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r100_c30_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r100_c30_i200.in test.out 64':
+
+   445,510,934,654      cycles                                                      
+   166,303,153,805      instructions              #    0.37  insn per cycle         
+     3,052,173,016      L1-dcache-load-misses     #    6.25% of all L1-dcache accesses
+    48,827,866,814      L1-dcache-loads                                             
+
+      20.223169186 seconds time elapsed
+
+     135.053145000 seconds user
+      92.770792000 seconds sys
+
+
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c100_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c100_i200.in test.out 1':
+
+    35,821,619,481      cycles                                                      
+    75,166,406,121      instructions              #    2.10  insn per cycle         
+        18,756,214      L1-dcache-load-misses     #    0.07% of all L1-dcache accesses
+    25,651,837,816      L1-dcache-loads                                             
+
+      12.202663053 seconds time elapsed
+
+      12.161598000 seconds user
+       0.028049000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c100_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c100_i200.in test.out 4':
+
+    42,281,871,422      cycles                                                      
+    77,115,961,827      instructions              #    1.82  insn per cycle         
+        67,060,859      L1-dcache-load-misses     #    0.26% of all L1-dcache accesses
+    26,124,064,921      L1-dcache-loads                                             
+
+       3.923252919 seconds time elapsed
+
+      15.443664000 seconds user
+       0.088020000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c100_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c100_i200.in test.out 8':
+
+    49,926,149,204      cycles                                                      
+    77,716,510,375      instructions              #    1.56  insn per cycle         
+        92,150,981      L1-dcache-load-misses     #    0.35% of all L1-dcache accesses
+    26,258,552,290      L1-dcache-loads                                             
+
+       2.466003435 seconds time elapsed
+
+      19.210728000 seconds user
+       0.079928000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c100_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c100_i200.in test.out 16':
+
+    96,220,925,086      cycles                                                      
+    78,975,733,303      instructions              #    0.82  insn per cycle         
+       125,462,443      L1-dcache-load-misses     #    0.47% of all L1-dcache accesses
+    26,488,227,369      L1-dcache-loads                                             
+
+       2.488816930 seconds time elapsed
+
+      38.796822000 seconds user
+       0.092096000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c100_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c100_i200.in test.out 32':
+
+   247,722,771,874      cycles                                                      
+   118,416,004,297      instructions              #    0.48  insn per cycle         
+     1,414,118,802      L1-dcache-load-misses     #    3.86% of all L1-dcache accesses
+    36,633,107,471      L1-dcache-loads                                             
+
+      12.442659848 seconds time elapsed
+
+      83.378303000 seconds user
+      43.959496000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r30_c100_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r30_c100_i200.in test.out 64':
+
+   443,804,405,656      cycles                                                      
+   165,776,659,535      instructions              #    0.37  insn per cycle         
+     2,972,137,539      L1-dcache-load-misses     #    6.10% of all L1-dcache accesses
+    48,699,558,311      L1-dcache-loads                                             
+
+      20.689047672 seconds time elapsed
+
+     134.836981000 seconds user
+      92.438928000 seconds sys
+
+
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i200.in test.out 1':
+
+    36,030,791,113      cycles                                                      
+    75,113,968,539      instructions              #    2.08  insn per cycle         
+        19,513,665      L1-dcache-load-misses     #    0.08% of all L1-dcache accesses
+    25,635,635,833      L1-dcache-loads                                             
+
+      12.232145217 seconds time elapsed
+
+      12.188421000 seconds user
+       0.032043000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i200.in test.out 4':
+
+    42,395,770,596      cycles                                                      
+    77,067,557,123      instructions              #    1.82  insn per cycle         
+        69,734,845      L1-dcache-load-misses     #    0.27% of all L1-dcache accesses
+    26,109,469,705      L1-dcache-loads                                             
+
+       3.938473819 seconds time elapsed
+
+      15.464870000 seconds user
+       0.088004000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i200.in test.out 8':
+
+    52,372,795,103      cycles                                                      
+    77,733,658,763      instructions              #    1.48  insn per cycle         
+        97,936,947      L1-dcache-load-misses     #    0.37% of all L1-dcache accesses
+    26,250,210,689      L1-dcache-loads                                             
+
+       2.545279130 seconds time elapsed
+
+      19.833175000 seconds user
+       0.099965000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i200.in test.out 16':
+
+   103,301,790,563      cycles                                                      
+    79,137,594,031      instructions              #    0.77  insn per cycle         
+       123,104,003      L1-dcache-load-misses     #    0.46% of all L1-dcache accesses
+    26,499,464,006      L1-dcache-loads                                             
+
+       2.652429648 seconds time elapsed
+
+      41.562374000 seconds user
+       0.124114000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i200.in test.out 32':
+
+   254,697,762,726      cycles                                                      
+   118,579,117,676      instructions              #    0.47  insn per cycle         
+     1,461,182,518      L1-dcache-load-misses     #    3.98% of all L1-dcache accesses
+    36,672,333,378      L1-dcache-loads                                             
+
+      12.973251417 seconds time elapsed
+
+      88.968369000 seconds user
+      44.073403000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i200.in test.out 64':
+
+   443,979,320,798      cycles                                                      
+   165,840,595,752      instructions              #    0.37  insn per cycle         
+     3,020,686,692      L1-dcache-load-misses     #    6.20% of all L1-dcache accesses
+    48,706,903,843      L1-dcache-loads                                             
+
+      20.325363326 seconds time elapsed
+
+     134.134730000 seconds user
+      93.492267000 seconds sys
+
+
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i300.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i300.in test.out 1':
+
+    36,292,628,123      cycles                                                      
+    75,066,244,051      instructions              #    2.07  insn per cycle         
+        18,681,302      L1-dcache-load-misses     #    0.07% of all L1-dcache accesses
+    25,596,123,110      L1-dcache-loads                                             
+
+      12.312709106 seconds time elapsed
+
+      12.252002000 seconds user
+       0.048031000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i300.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i300.in test.out 4':
+
+    42,193,516,714      cycles                                                      
+    76,996,062,229      instructions              #    1.82  insn per cycle         
+        70,231,178      L1-dcache-load-misses     #    0.27% of all L1-dcache accesses
+    26,065,792,206      L1-dcache-loads                                             
+
+       3.944964930 seconds time elapsed
+
+      15.442509000 seconds user
+       0.087968000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i300.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i300.in test.out 8':
+
+    51,093,678,319      cycles                                                      
+    77,658,937,011      instructions              #    1.52  insn per cycle         
+        92,843,399      L1-dcache-load-misses     #    0.35% of all L1-dcache accesses
+    26,205,815,091      L1-dcache-loads                                             
+
+       2.504379813 seconds time elapsed
+
+      19.386071000 seconds user
+       0.087918000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i300.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i300.in test.out 16':
+
+   107,907,407,335      cycles                                                      
+    79,175,092,746      instructions              #    0.73  insn per cycle         
+       127,149,311      L1-dcache-load-misses     #    0.48% of all L1-dcache accesses
+    26,471,332,221      L1-dcache-loads                                             
+
+       2.793759415 seconds time elapsed
+
+      43.395961000 seconds user
+       0.108099000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i300.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i300.in test.out 32':
+
+   247,058,967,242      cycles                                                      
+   118,356,539,297      instructions              #    0.48  insn per cycle         
+     1,413,889,230      L1-dcache-load-misses     #    3.86% of all L1-dcache accesses
+    36,587,618,104      L1-dcache-loads                                             
+
+      12.907231217 seconds time elapsed
+
+      86.051092000 seconds user
+      45.387816000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i300.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i300.in test.out 64':
+
+   442,272,712,645      cycles                                                      
+   165,743,193,317      instructions              #    0.37  insn per cycle         
+     3,008,210,296      L1-dcache-load-misses     #    6.18% of all L1-dcache accesses
+    48,655,027,422      L1-dcache-loads                                             
+
+      20.258030859 seconds time elapsed
+
+     133.255393000 seconds user
+      93.478686000 seconds sys
+
+
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 1':
+
+    36,337,181,785      cycles                                                      
+    75,241,416,114      instructions              #    2.07  insn per cycle         
+        20,895,747      L1-dcache-load-misses     #    0.08% of all L1-dcache accesses
+    25,650,487,296      L1-dcache-loads                                             
+
+      12.323326482 seconds time elapsed
+
+      12.278492000 seconds user
+       0.032006000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 4':
+
+    42,293,628,438      cycles                                                      
+    77,177,407,503      instructions              #    1.82  insn per cycle         
+        71,166,600      L1-dcache-load-misses     #    0.27% of all L1-dcache accesses
+    26,121,210,734      L1-dcache-loads                                             
+
+       3.953689334 seconds time elapsed
+
+      15.458150000 seconds user
+       0.079969000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 8':
+
+    54,264,308,647      cycles                                                      
+    77,925,271,716      instructions              #    1.44  insn per cycle         
+       100,385,080      L1-dcache-load-misses     #    0.38% of all L1-dcache accesses
+    26,273,611,336      L1-dcache-loads                                             
+
+       2.743638680 seconds time elapsed
+
+      21.205183000 seconds user
+       0.088944000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+srun: Job 43537 step creation temporarily disabled, retrying (Socket timed out on send/recv operation)
+srun: Step created for job 43537
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 16':
+
+   108,773,200,879      cycles                                                      
+    79,385,731,111      instructions              #    0.73  insn per cycle         
+       128,701,830      L1-dcache-load-misses     #    0.49% of all L1-dcache accesses
+    26,531,243,434      L1-dcache-loads                                             
+
+       2.828586138 seconds time elapsed
+
+      43.742393000 seconds user
+       0.107986000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 32':
+
+   254,793,240,419      cycles                                                      
+   118,667,251,148      instructions              #    0.47  insn per cycle         
+     1,461,046,487      L1-dcache-load-misses     #    3.98% of all L1-dcache accesses
+    36,676,931,106      L1-dcache-loads                                             
+
+      13.039429129 seconds time elapsed
+
+      87.726517000 seconds user
+      45.641759000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r50_c60_i400.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r50_c60_i400.in test.out 64':
+
+   447,091,769,638      cycles                                                      
+   166,030,244,427      instructions              #    0.37  insn per cycle         
+     3,027,648,672      L1-dcache-load-misses     #    6.21% of all L1-dcache accesses
+    48,737,545,126      L1-dcache-loads                                             
+
+      20.379379061 seconds time elapsed
+
+     135.482826000 seconds user
+      93.270599000 seconds sys
+
+Running on soctf-pdc-008 with 1 threads.
+<INPUT_PATH>: ./test/test_g100000_r80_c90_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 1
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r80_c90_i200.in test.out 1':
+
+    86,225,631,210      cycles                                                      
+   179,997,091,044      instructions              #    2.09  insn per cycle         
+       170,904,942      L1-dcache-load-misses     #    0.28% of all L1-dcache accesses
+    61,414,326,161      L1-dcache-loads                                             
+
+      29.174312518 seconds time elapsed
+
+      29.109497000 seconds user
+       0.047995000 seconds sys
+
+
+Running on soctf-pdc-008 with 4 threads.
+<INPUT_PATH>: ./test/test_g100000_r80_c90_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 4
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r80_c90_i200.in test.out 4':
+
+    93,867,593,845      cycles                                                      
+   184,411,505,550      instructions              #    1.96  insn per cycle         
+       174,354,965      L1-dcache-load-misses     #    0.28% of all L1-dcache accesses
+    62,502,288,633      L1-dcache-loads                                             
+
+       8.677895867 seconds time elapsed
+
+      34.261249000 seconds user
+       0.116031000 seconds sys
+
+
+Running on soctf-pdc-008 with 8 threads.
+<INPUT_PATH>: ./test/test_g100000_r80_c90_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 8
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r80_c90_i200.in test.out 8':
+
+   123,982,623,750      cycles                                                      
+   186,173,507,238      instructions              #    1.50  insn per cycle         
+       201,682,813      L1-dcache-load-misses     #    0.32% of all L1-dcache accesses
+    62,845,357,940      L1-dcache-loads                                             
+
+       5.867594688 seconds time elapsed
+
+      46.066903000 seconds user
+       0.112007000 seconds sys
+
+
+Running on soctf-pdc-008 with 16 threads.
+<INPUT_PATH>: ./test/test_g100000_r80_c90_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 16
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r80_c90_i200.in test.out 16':
+
+   170,740,207,196      cycles                                                      
+   188,175,543,596      instructions              #    1.10  insn per cycle         
+       253,826,622      L1-dcache-load-misses     #    0.40% of all L1-dcache accesses
+    63,204,787,930      L1-dcache-loads                                             
+
+       4.179854458 seconds time elapsed
+
+      64.988679000 seconds user
+       0.228100000 seconds sys
+
+
+Running on soctf-pdc-008 with 32 threads.
+<INPUT_PATH>: ./test/test_g100000_r80_c90_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 32
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r80_c90_i200.in test.out 32':
+
+   406,230,271,286      cycles                                                      
+   194,422,307,715      instructions              #    0.48  insn per cycle         
+       371,057,221      L1-dcache-load-misses     #    0.58% of all L1-dcache accesses
+    64,194,766,520      L1-dcache-loads                                             
+
+       17.229785033 seconds time elapsed
+
+     163.225938000 seconds user
+       0.655541000 seconds sys
+
+
+Running on soctf-pdc-008 with 64 threads.
+<INPUT_PATH>: ./test/test_g100000_r80_c90_i200.in
+<OUTPUT_PATH>: test.out
+<NUM_THREADS>: 64
+
+ Performance counter stats for './iom_cpp.out ./test/test_g100000_r80_c90_i200.in test.out 64':
+
+   579,957,895,825      cycles                                                      
+   268,811,830,649      instructions              #    0.46  insn per cycle         
+     3,004,761,980      L1-dcache-load-misses     #    3.58% of all L1-dcache accesses
+    84,036,595,761      L1-dcache-loads                                             
+
+      26.458344589 seconds time elapsed
+
+     604.252459000 seconds user
+     266.031734000 seconds sys
+
+

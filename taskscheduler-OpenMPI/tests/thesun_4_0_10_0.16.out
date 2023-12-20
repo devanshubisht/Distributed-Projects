@@ -1,0 +1,42 @@
+Job is running on soctf-pdc-024.d1.comp.nus.edu.sg, started at Sun Nov 19 01:41:42 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-024.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/109859.txt
+Running...
++ tee /tmp/109859.txt
++ mpirun --map-by core --bind-to core ./distr-sched-seq 4 0 10 0.16 tests/thesun.in
+EXECUTION TRACE: Task #2718281828: depth 0, type 2, seed 2718281828, output 1781211269 (1 descendants)
+EXECUTION TRACE: Task #1618033988: depth 0, type 1, seed 1618033988, output 53440 (1 descendants)
+EXECUTION TRACE: Task #4058104625: depth 1, type 3, seed 4058104625, output 7886 (1 descendants)
+EXECUTION TRACE: Task #2285740015: depth 1, type 1, seed 2285740015, output 80335 (2 descendants)
+EXECUTION TRACE: Task #2104450896: depth 2, type 2, seed 2104450896, output 2709202317 (3 descendants)
+EXECUTION TRACE: Task #226440632: depth 2, type 4, seed 226440632, output 895771442 (2 descendants)
+EXECUTION TRACE: Task #3972744737: depth 2, type 1, seed 3972744737, output 22376 (3 descendants)
+EXECUTION TRACE: Task #3543231979: depth 3, type 2, seed 3543231979, output 1862919517 (2 descendants)
+EXECUTION TRACE: Task #395701628: depth 3, type 5, seed 395701628, output 651992846 (2 descendants)
+EXECUTION TRACE: Task #894633691: depth 3, type 5, seed 894633691, output 1350800739 (1 descendants)
+EXECUTION TRACE: Task #2546997666: depth 3, type 4, seed 2546997666, output 1681011250 (0 descendants)
+EXECUTION TRACE: Task #1860003006: depth 3, type 2, seed 1860003006, output 1164119075 (1 descendants)
+EXECUTION TRACE: Task #558227679: depth 3, type 1, seed 558227679, output 30796 (3 descendants)
+EXECUTION TRACE: Task #363168956: depth 3, type 3, seed 363168956, output 10739 (1 descendants)
+EXECUTION TRACE: Task #875526193: depth 3, type 5, seed 875526193, output 2562273138 (4 descendants)
+EXECUTION TRACE: Task #338152781: depth 4, type 3, seed 338152781, output 8741 (0 descendants)
+EXECUTION TRACE: Task #3550353984: depth 4, type 3, seed 3550353984, output 11881 (0 descendants)
+EXECUTION TRACE: Task #4195931056: depth 4, type 3, seed 4195931056, output 21162 (0 descendants)
+EXECUTION TRACE: Task #1293646092: depth 4, type 3, seed 1293646092, output 7739 (0 descendants)
+EXECUTION TRACE: Task #3959941749: depth 4, type 4, seed 3959941749, output 892743737 (0 descendants)
+EXECUTION TRACE: Task #1139702167: depth 4, type 4, seed 1139702167, output 1647457382 (0 descendants)
+EXECUTION TRACE: Task #896825887: depth 4, type 1, seed 896825887, output 15829 (0 descendants)
+EXECUTION TRACE: Task #533387515: depth 4, type 2, seed 533387515, output 4231361825 (0 descendants)
+EXECUTION TRACE: Task #3916270121: depth 4, type 2, seed 3916270121, output 3032441093 (0 descendants)
+EXECUTION TRACE: Task #35546034: depth 4, type 2, seed 35546034, output 3000048194 (0 descendants)
+EXECUTION TRACE: Task #4187625808: depth 4, type 1, seed 4187625808, output 56981 (0 descendants)
+EXECUTION TRACE: Task #1999527812: depth 4, type 1, seed 1999527812, output 70107 (0 descendants)
+EXECUTION TRACE: Task #3815455812: depth 4, type 1, seed 3815455812, output 3328 (0 descendants)
+EXECUTION TRACE: Task #1851014418: depth 4, type 4, seed 1851014418, output 1701143348 (0 descendants)
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 5811ms of 5829ms (0.99691) - completed: 8 7 6 5 3
+Overall: 5811ms of 5829ms (0.99691) - completed: 8 7 6 5 3
+FINAL RUNTIME: 5829ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
++ set +x
